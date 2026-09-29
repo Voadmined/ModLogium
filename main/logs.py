@@ -26,3 +26,17 @@ def create_log_entry(log_id, username, userID, action, reason, moderator):
     }
 
     return log_entry
+
+
+def search_logs(logs, query):
+    if not query.strip():
+        return logs
+    lowquery = query.strip().lower()
+
+    results = []
+    
+    for log in logs:
+        if any(lowquery in str(value).lower() for value in log.values()):
+            results.append(log)
+
+    return results
