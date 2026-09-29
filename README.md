@@ -4,13 +4,10 @@ A CLI-based moderation logging application written in Python.
 
 ## Features
 
-> Interactive terminal prompts with validation
-
-> Automatic sequential ID generation
-
-> JSON-based persistent storage
-
-> Styled log output tables with word wrapping
+> - Interactive terminal prompts with validation
+> - Automatic sequential ID generation
+> - JSON-based persistent storage
+> - Styled log output tables with word wrapping
 
 ## Requirements
 
