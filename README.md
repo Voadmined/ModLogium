@@ -4,22 +4,22 @@ A CLI-based moderation logging application written in Python.
 
 ## Features
 
-> - Interactive terminal prompts with validation
-> - Automatic sequential ID generation
-> - JSON-based persistent storage
-> - Styled log output tables with word wrapping
+> * Interactive terminal prompts with validation
+> * Automatic sequential ID generation
+> * JSON-based persistent storage
+> * Styled log output tables with word wrapping
+> * Built-in search functionality across all log fields (Username, User ID, Action, Reason, Moderator)
+> * *Planned:* Standalone executable file (.exe) for non-Python users
 
 ## Requirements
 
-- Python 3.x
-
-- Questionary
-
-- Rich
+> * Python 3.x
+> * Questionary
+> * Rich
 
 ## Directory Structure
 
-```
+```text
 main/
 ├── data/
 │   └── logs.json
@@ -30,14 +30,19 @@ main/
 
 ## Setup & Usage
 
-### Install dependencies:
+Install dependencies:
 
-```
+```Bash
 pip install -r requirements.txt
 ```
 
-### Run the application:
+Run the application:
 
-```
+```Bash
 python main.py
 ```
+
+## Credits
+
+**Enpaged**
+> Tester, Contributor
