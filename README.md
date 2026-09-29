@@ -20,14 +20,12 @@ A CLI-based moderation logging application written in Python.
 ## Directory Structure
 
 ```
-ModLogium/
+main/
 ├── data/
 │   └── logs.json
 ├── database.py
 ├── logs.py
-├── main.py
-├── requirements.txt
-└── LICENSE
+└── main.py
 ```
 
 ## Setup & Usage
